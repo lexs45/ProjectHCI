@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.Maps{
+    overflow: hidden;
+}
+
+
+.Regions{
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image:
+    linear-gradient(#0000,#222),
+     url(../images/background/background.jpg);
+    /* margin-left: 500px; */
+    /* border: solid blue;  */
+    /* overflow: hidden; */
+    /* box-sizing: border-box; */
+}
+
+.Regions li{
+    width: 98%;
+    margin: 10px;
+    padding-top: 100px;
+    text-align: center;
+    border: 1px solid #1c1c1c;
+    height: 150px;
+    border-radius: 100px;
+    opacity: 0.6;
+    
+}
+
+.Regions li:hover{
+    opacity: 1.0;
+}
+
+
+.Regions a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    /* position: absolute; */
+    text-align: center;
+    /* margin-left: 50px; */
+}
+
+.Mondstadt{
+    margin-top: 6%;
+}
+
+.Mondstadt a li{
+    /* margin-top: 10%; */
+    background-size:cover;
+    /* background-image: url(../Asset_maps/mondstadt.jpg); */
+    background-image: url(../images/Asset_maps/mondstadt.jpg);
+    transition: 0.6s;
+    /* color: white; */
+}
+
+.Mondstadt li:hover{
+    background-size: cover;
+    /* background-image: url(../Asset_maps/mondstadt1.jpg); */
+    background-image: url(../images/Asset_maps/mondstadt1.jpg);
+}
+
+
+.Liyue a li{
+    background-size:cover;
+    /* background-image: url(../Asset_maps/liyue.jpg); */
+    background-image: url(../images/Asset_maps/liyue.jpg);
+    transition: 0.6s;
+}
+
+.Liyue li:hover{
+    background-size:cover;
+    /* background-image: url(../Asset_maps/liyue1.jpg); */
+    background-image: url(../images/Asset_maps/liyue1.jpg);
+}
+
+.Inazuma a li{
+    background-size:cover;
+    /* background-image: url(../Asset_maps/Inazuma.jpg); */
+    background-image: url(../images/Asset_maps/Inazuma.jpg);
+    transition: 0.6s;
+}
+
+.Inazuma li:hover{
+    background-size:cover;
+    /* background-image: url(../Asset_maps/Inazuma1.jpg); */
+    background-image: url(../images/Asset_maps/Inazuma1.jpg);
+}
+
+.Sumeru a li{
+    background-size:cover;
+    /* background-image: url(../Asset_maps/Sumeru.jpg); */
+    background-image: url(../images/Asset_maps/Sumeru.jpg);
+    transition: 0.6s;
+} 
+
+.Sumeru li:hover{
+    background-size:cover;
+    /* background-image: url(../Asset_maps/Sumeru1.jpg); */
+    background-image: url(../images/Asset_maps/Sumeru1.jpg);
+}
+
+
+
+
+@media(max-width:769px){
+    .Map{
+        /* border: solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Regions li{
+        /* border: solid blue; */
+        /* position: relative; */
+        /* right: 2.2%; */
+        margin: 2% auto;
+    }
+}
+
+
+@media screen and (max-width : 500px) {
+    #contents{
+        /* display: flex;
+        width: 100vw; */
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:321px){
+    .Map{
+        width: 100%;
+        /* border: solid green; */
+        box-sizing: border-box;
+    }
+    .Regions{
+        width: 100%;
+        /* border: solid red; */
+        overflow: hidden;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+    }
+    .Regions li{
+        /* border: solid white; */
+        /* position: relative;
+        right: 2.2%; */
+        margin: 2% auto;
+    }
+}

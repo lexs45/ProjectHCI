@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regristasi</title>
+    <link rel="stylesheet" type="text/css" href="../css/../css/RegristasiStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="../script/scipt.js"></script>
+    <link rel="website icon" type="png" href="../images/Icon/icon2.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <input type="checkbox" id="check">
+    <div class="sidebar">
+        <ul>
+            <li><a href="../halaman/index.html" target="_self">Home</a></li>
+            <li><a href="../halaman/Character.html">Character</a></li>
+            <li><a href="../halaman/Maps.html">Maps</a></li>
+            <li class="active"><a href="../halaman/Regristasi.html" target="_self">Regristation</a></li>
+            <li><a href="../halaman/About2.html" target="_self">About</a></li>
+        </ul>
+    </div>
+    <!-- end of Sidebar -->
+
+    <!-- Header -->
+    <header>
+        <div id="navbar">
+            <div class="nav-head menus">
+                <a href="./index.html"><img src="../images/Icon/Genshin_logo_header.png" class="img-logo"></a>
+
+                <ul>
+                    <li><a href="./index.html" target="_self" class="nav-link active"><b>Home</b></a></li>
+                    <li><a href="./Character.html" target="_self" class="nav-link "><b>Character</b></a></li>
+                    <li><a href="../halaman/Maps.html" target="_self" class="nav-link "><b>Maps</b></a></li>
+                    <li class="active"><a href="../halaman/Regristasi.html" target="_self" class="nav-link "><b>Regristation</b></a>
+                    </li>
+                    <li><a href="../halaman/About2.html" target="_self" class="nav-link"><b>About</b></a></li>
+                </ul>
+
+                <!-- menu mobile -->
+
+                <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+            </div>
+        </div>
+    </header>
+    <!-- Tutup bagian header -->
+
+    <div class="mainParent">
+        <div class="class-box">
+            <div class="cek">
+                <div class="box" id="center-box">
+                    <div class="formWrap">
+                        <form action="">
+                            <h1>Regristation</h1>
+                            <div class="singleInput">
+                                <input type="text" id="usrname" placeholder="Username">
+                            </div>
+                            <div class="singleInput">
+                                <input type="password" id="pass" placeholder="Password">
+                            </div>
+                            <div class="singleInput">
+                                <input type="password" id="Rep_pass" placeholder="Confirm Password">
+                            </div>
+                            <div class="singleInput">
+                                <input type="age" id="Age" placeholder="Age : Min. 13th">
+                            </div>
+                            <div class="singleInput">
+                                <input type="email" id="email" placeholder="E-Mail">
+                            </div>
+                            <div class="checkbox-wrapper">
+                                <input checked type="checkbox" id="checkBox" hidden>
+                                <label for="checkBox" class="checkmark"></label>
+                                <div class="text_check">
+                                    <p>I have read Terms and Condition</p>
+                                </div>
+                            </div>
+
+
+
+                            <div id="divError"></div>
+                            <div class="submit_button">
+                                <button id="button">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="sebelum-footer">
+        <div class="container">
+            <div class="before-footer">
+                <ul>
+                    <li><a href="https://facebook.com/GenshinImpact.id/" target="_blank"><img
+                                src="../images/Icon/fb.png"></a></li>
+                    <li><a href="https://www.instagram.com/genshinimpact/" target="_blank"><img
+                                src="../images/Icon/ig.png"></a></li>
+                    <li><a href="https://www.youtube.com/c/GenshinImpact" target="_blank"><img
+                                src="../images/Icon/yt.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="cr" class="container">
+            <div class="logo-kecil">
+                <img
+                    src="../images/Icon/Genshin_logo_Footer.svg.png">
+            </div>
+            <div class="text-style">
+                <small>"PlayStation Family Mark," "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of
+                    Sony Interactive Entertainment Inc.<br></small>
+                <small>Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are
+                    trademarks and/or registered trademarks of Epic Games. All other trademarks are the property of
+                    their respective owners.</small>
+                <br>
+                <br>
+                <small>Copyright &copy; <a href="https://www.instagram.com/lexs45_/" target="_blank">Alex Sandro
+                        Ardian</a> (2602189404) & <a href="https://www.instagram.com/felicia_putri04/"
+                        target="_blank">Felicia Putri</a> (2602189461). All Right Reserved.</small></div>
+        </div>
+    </footer>
+    
+</body>
+<div id="asynchronous"></div>
+<script src="../script/regris.js"></script>
+
+</html>
