@@ -736,5 +736,8 @@
     .scroll p{
         font-size: 6px;
     }
+    #divError{
+        font-size: 10px;
+    }
     
 }
